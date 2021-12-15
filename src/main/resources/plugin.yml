@@ -1,0 +1,15 @@
+name: QuestAddon
+version: '${project.version}'
+main: io.github.pro4d.questaddon.QuestAddon
+api-version: 1.17
+authors: [ Pro4D ]
+description: Place a fake pumpkin on a players head for a certain amount of time!
+depend: [ ProtocolLib ]
+
+commands:
+  fakepumpkinhead:
+    permission: questaddon.fakepumpkin
+
+permissions:
+  questaddon.fakepumpkin:
+    description: Allows access to the fakepumpkinhead command
